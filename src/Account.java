@@ -33,7 +33,7 @@ class SavingAccount extends Account {
             System.err.println("[ERROR] Not enough money");
             return;
         }
-
+        System.out.println("HELLO WORLD");
         set_balance(get_balance() - amount); }
 }
 
